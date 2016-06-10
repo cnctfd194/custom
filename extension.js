@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "cnctfd194";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -51,9 +51,9 @@
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
-      startupCap: 1, // 1-200
-      startupVolume: 0, // 0-100
-      startupEmoji: false, // true or false
+      startupCap: 50, // 1-200
+      startupVolume: 100, // 0-100
+      startupEmoji: True, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
@@ -88,9 +88,9 @@
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
-      motdEnabled: false,
-      motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motdEnabled: true,
+      motdInterval: 30,
+      motd: "We hope you enjoy your stay in The Velvet Room! Visit us at https://www.facebook.com/TheVelvetRoomLobby/",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
@@ -99,7 +99,7 @@
       themeLink: null,
       fbLink: null,
       youtubeLink: null,
-      website: null,
+      website: https://www.facebook.com/TheVelvetRoomLobby/,
       intervalMessages: [],
       messageInterval: 5,
       songstats: true,
