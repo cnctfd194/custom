@@ -67,7 +67,11 @@
                                 return API.sendChat(subChat(basicBot.chat.selfcake, {name: name}));
                             }
                             else {
-                                return API.sendChat(subChat(basicBot.chat.cake, {nameto: user.username, namefrom: chat.un, cake: this.getCake()}));
+                                return API.sendChat(subChat(basicBot.chat.cake, {nameto: user.username, namefrom: chat.un, cake: this.getCake()}));    }
+          }
+        };
+
+
         // Load the chat package again to account for any changes
         bot.loadChat();
 
