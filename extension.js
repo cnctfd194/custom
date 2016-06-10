@@ -90,7 +90,7 @@
       afkRankCheck: "ambassador",
       motdEnabled: true,
       motdInterval: 20,
-      motd: "We hope you enjoy your stay at TheVelvet Room! Visit us at https://www.facebook.com/TheVelvetRoomLobby/",
+      motd: "We hope you'll enjoy your stay at The Velvet Room! Visit us at https://www.facebook.com/TheVelvetRoomLobby/",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
