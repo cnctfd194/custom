@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "cnctfd194";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -34,6 +34,19 @@
             if (!bot.commands.executable(this.rank, chat)) return void (0);
             else {
               API.sendChat("/me Bacon!!!");
+            }
+          }
+        };
+
+        bot.commands.baconCommand = {
+          command: 'fsteak',
+          rank: 'user',
+          type: 'exact',
+          functionality: function (chat, cmd) {
+            if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+            if (!bot.commands.executable(this.rank, chat)) return void (0);
+            else {
+              API.sendChat("/me Fsteak!!!");
             }
           }
         };
